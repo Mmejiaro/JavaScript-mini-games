@@ -112,3 +112,7 @@ function rpsFrontEnd(humanImgChoice, botImgChoice, finalMessage) {
     document.getElementById('flex-box-rps-div').appendChild(messageDiv);
     document.getElementById('flex-box-rps-div').appendChild(botDiv);
 }
+
+function buttonColorChange() {
+
+}
