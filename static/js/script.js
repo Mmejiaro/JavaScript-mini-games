@@ -168,3 +168,10 @@ function randomColors() {
         all_buttons[i].classList.add(choices[randomNum]);
     }
 }
+
+// Challenge 5: Blackjack
+document.querySelector('#blackjack-hit-button').addEventListener('click', blackjackHit);
+
+function blackjackHit() {
+    alert('Ouch, you clicked me');
+}
